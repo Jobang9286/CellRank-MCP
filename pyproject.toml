@@ -1,0 +1,15 @@
+[project]
+name = "cellrank-bg"
+version = "0.1.0"
+description = "MCP tools for CellRank"
+authors = [{name = "Your Name"}]
+dependencies = [
+  "scanpy==1.10.3",
+  "cellrank",
+  "scvelo==0.2.5",
+  "pygam",
+  "scikit-misc"
+]
+
+[tool.setuptools]
+py-modules = ["main", "server"]

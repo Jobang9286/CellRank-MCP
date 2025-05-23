@@ -1,0 +1,7 @@
+scanpy
+cellrank
+scvelo
+pygam
+scikit-misc
+matplotlib==3.7.1
+
